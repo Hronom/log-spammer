@@ -2,7 +2,7 @@ version: '3.6'
 services:
   log-spammer:
     build: .
-    image: log-spammer
+    image: hronom/log-spammer
     logging:
       driver: json-file
       options:
